@@ -1,0 +1,10 @@
+
+.line-break::before {
+    display: block;
+    content: "";
+
+    @include from(1200px) {
+        display: inline;
+    }
+}
+

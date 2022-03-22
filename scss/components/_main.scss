@@ -1,0 +1,60 @@
+
+.youtube {
+
+    &__header {
+        text-align: center;
+        padding: var(--padding-primary);
+
+        & :is(span) {
+            font-weight: bold;
+        }
+    }
+
+    &__video-wrapper {
+        width: 100%;
+
+        // 640px
+        @include from(xmedium) {
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        // 960px
+        @include from(xxmedium) {
+            width: 70%;
+        }
+
+        // 1280px
+        @include from(xlarge) {
+            width: 60%;
+        }
+    }
+
+    &__video {
+        height: 0;
+        position: relative;
+        padding-bottom: 56.25%;
+        // background-color: red;
+
+        > iframe,
+        > video {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+    }
+
+    &__info {
+        padding: var(--padding-alt);
+    }
+
+    &__text {
+
+        & :is(span) {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+}
+
