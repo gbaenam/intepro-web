@@ -181,7 +181,7 @@ small {
   --font-size-title: 3.7rem;
   --margin-bottom-title: 1.6rem;
   --font-size-info: 1.15rem;
-  --font-size-phone: 2rem;
+  --font-size-phone: 1.625rem;
   --margin-bottom-info-p: 16px;
   --margin-right-info-i: .4rem;
   --margin-right-phone-i: .7rem;
@@ -196,14 +196,15 @@ small {
       --padding-description-info: 2.5rem 1.13rem 2rem;
       --font-size-title: 4rem;
       --margin-bottom-title: 2.2rem;
-      --font-size-info: 1.3rem; } }
+      --font-size-info: 1.3rem;
+      --font-size-phone: 1.8125rem; } }
   @media screen and (min-width: 412px) {
     .banner {
       --padding-description-info: 3rem 1.13rem 2.5rem;
       --font-size-title: 4.7rem;
       --margin-bottom-title: 2.5rem;
       --font-size-info: 1.5rem;
-      --font-size-phone: 2.4rem;
+      --font-size-phone: 2.125rem;
       --margin-bottom-info-p: 22px; } }
   @media screen and (min-width: 540px) {
     .banner {
@@ -211,12 +212,12 @@ small {
       --font-size-title: 5.4rem;
       --margin-bottom-title: 3.2rem;
       --font-size-info: 1.7rem;
-      --font-size-phone: 3rem;
+      --font-size-phone: 2.5625rem;
       --margin-right-info-i: .7rem;
       --margin-right-phone-i: .8rem; } }
   @media screen and (min-width: 640px) {
     .banner {
-      --font-size-phone: 3.3rem; } }
+      --font-size-phone: 3rem; } }
   @media screen and (min-width: 960px) {
     .banner {
       --padding-description-info: 4rem 2.7rem 3.5rem; } }

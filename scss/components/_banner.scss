@@ -15,7 +15,7 @@
     --font-size-info: 1.15rem;
 
     // banner__phone
-    --font-size-phone: 2rem;
+    --font-size-phone: 1.625rem;
 
     // banner__info-p
     --margin-bottom-info-p: 16px;
@@ -34,6 +34,7 @@
         --font-size-title: 4rem;
         --margin-bottom-title: 2.2rem;
         --font-size-info: 1.3rem;
+        --font-size-phone: 1.8125rem;
     }
 
 
@@ -43,7 +44,7 @@
         --font-size-title: 4.7rem;
         --margin-bottom-title: 2.5rem;
         --font-size-info: 1.5rem;
-        --font-size-phone: 2.4rem;
+        --font-size-phone: 2.125rem;
         --margin-bottom-info-p: 22px;
     }
 
@@ -54,7 +55,7 @@
         --font-size-title: 5.4rem;
         --margin-bottom-title: 3.2rem;
         --font-size-info: 1.7rem;
-        --font-size-phone: 3rem;
+        --font-size-phone: 2.5625rem;
         --margin-right-info-i: .7rem;
         --margin-right-phone-i: .8rem;
     }
@@ -62,7 +63,7 @@
 
     /*------------ 640px ------------*/
     @include from(xmedium) {
-        --font-size-phone: 3.3rem;
+        --font-size-phone: 3rem;
     }
 
 
