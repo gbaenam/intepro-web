@@ -408,6 +408,7 @@ small {
   .footer__social {
     color: #fff; }
     .footer__social :is(i) {
+      color: #fff;
       font-size: 1.875rem;
       margin-right: 1.125rem;
       cursor: var(--cursor-button); }
