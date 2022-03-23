@@ -175,6 +175,40 @@ small {
   min-width: var(--min-width);
   background-color: #f5f8ff; }
 
+.btn-whatsapp {
+  width: 70px;
+  height: 70px;
+  right: 8px;
+  bottom: 35px;
+  display: flex;
+  font-size: 60px;
+  position: fixed;
+  color: #0df053;
+  border-radius: 5px;
+  align-items: center;
+  z-index: var(--z-fixed);
+  justify-content: center;
+  background-color: transparent;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); }
+  @media screen and (min-width: 412px) {
+    .btn-whatsapp {
+      right: 12px;
+      bottom: 20px; } }
+  @media screen and (min-width: 540px) {
+    .btn-whatsapp {
+      right: 20px;
+      bottom: 10px; } }
+  @media screen and (min-width: 1280px) {
+    .btn-whatsapp {
+      right: 120px;
+      bottom: 30px; } }
+  @media screen and (min-width: 1440px) {
+    .btn-whatsapp {
+      right: 40px; } }
+  .btn-whatsapp:hover {
+    color: #0df053;
+    background-color: #fff; }
+
 .banner {
   /*------------ 320px ------------*/
   --padding-description-info: 1.6rem 1.125rem 1.125rem;

@@ -1,0 +1,40 @@
+.btn-whatsapp {
+    width: 70px;
+    height: 70px;
+    right: 8px;
+    bottom: 35px;
+    display: flex;
+    font-size: 60px;
+    position: fixed;
+    color: #0df053;
+    border-radius: 5px;
+    align-items: center;
+    z-index: var(--z-fixed);
+    justify-content: center;
+    background-color: transparent;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+
+    @include from(412px) {
+        right: 12px;
+        bottom: 20px;
+    }
+
+    @include from(medium) {
+        right: 20px;
+        bottom: 10px;
+    }
+
+    @include from(xlarge) {
+        right: 120px;
+        bottom: 30px;
+    }
+
+    @include from(xxlarge) {
+        right: 40px;
+    }
+
+    &:hover {
+        color: #0df053;
+        background-color: #fff;
+    }
+}
