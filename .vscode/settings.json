@@ -3,5 +3,8 @@
     "activityBar.background": "#42270C",
     "titleBar.activeBackground": "#5C3711",
     "titleBar.activeForeground": "#FEFBF8"
-  }
+  },
+  "cSpell.words": [
+    "Intepro"
+  ]
 }
