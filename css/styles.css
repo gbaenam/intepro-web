@@ -377,8 +377,9 @@ small {
 .youtube__header {
   text-align: center;
   padding: var(--padding-primary); }
-  .youtube__header :is(span) {
-    font-weight: bold; }
+
+.youtube__subtitle span {
+  font-weight: bold; }
 
 .youtube__video-wrapper {
   width: 100%; }

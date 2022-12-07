@@ -4,10 +4,10 @@
     &__header {
         text-align: center;
         padding: var(--padding-primary);
+    }
 
-        & :is(span) {
-            font-weight: bold;
-        }
+    &__subtitle span {
+        font-weight: bold;
     }
 
     &__video-wrapper {
