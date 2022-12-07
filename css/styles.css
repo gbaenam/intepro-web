@@ -159,15 +159,25 @@ button {
 small {
   font-size: var(--font-size-small); }
 
-.line-break412::before,
-.line-break960::before,
-.line-break1200::before {
+.line-break::before {
   display: block;
   content: ""; }
 
 @media screen and (min-width: 412px) {
   .line-break412::before {
     display: inline; } }
+
+@media screen and (min-width: 548px) {
+  .line-break548::before {
+    display: inline; } }
+
+@media screen and (min-width: 640px) {
+  .line-break640::before {
+    display: inline; } }
+
+@media screen and (min-width: 792px) {
+  .line-break792::before {
+    display: block; } }
 
 @media screen and (min-width: 960px) {
   .line-break960::before {

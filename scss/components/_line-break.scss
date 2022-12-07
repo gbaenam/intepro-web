@@ -1,6 +1,4 @@
-.line-break412::before,
-.line-break960::before,
-.line-break1200::before {
+.line-break::before {
     display: block;
     content: "";
 }
@@ -9,6 +7,27 @@
 
     @include from(412px) {
         display: inline;
+    }
+}
+
+.line-break548::before {
+
+    @include from(548px) {
+        display: inline;
+    }
+}
+
+.line-break640::before {
+
+    @include from(640px) {
+        display: inline;
+    }
+}
+
+.line-break792::before {
+
+    @include from(792px) {
+        display: block;
     }
 }
 
