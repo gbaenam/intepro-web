@@ -159,12 +159,23 @@ button {
 small {
   font-size: var(--font-size-small); }
 
-.line-break::before {
+.line-break412::before,
+.line-break960::before,
+.line-break1200::before {
   display: block;
   content: ""; }
-  @media screen and (min-width: 1200px) {
-    .line-break::before {
-      display: inline; } }
+
+@media screen and (min-width: 412px) {
+  .line-break412::before {
+    display: inline; } }
+
+@media screen and (min-width: 960px) {
+  .line-break960::before {
+    display: inline; } }
+
+@media screen and (min-width: 1200px) {
+  .line-break1200::before {
+    display: inline; } }
 
 .container {
   width: 100%;
