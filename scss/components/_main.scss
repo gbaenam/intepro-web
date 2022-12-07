@@ -49,12 +49,13 @@
         padding: var(--padding-alt);
     }
 
-    &__text {
+    &__text span:first-child {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 
-        & :is(span) {
-            font-weight: bold;
-            text-transform: uppercase;
-        }
+    &__text span:nth-child(2) {
+        font-weight: bold;
     }
 }
 
