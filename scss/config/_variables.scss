@@ -104,12 +104,24 @@ $breakpoints: (
     --line-height-h1: 48px;
     --line-height-body: 28px;
 
+    @include from(360px) {
+        --line-height-h1: 52px;
+    }
+
     @include from(412px) {
         --line-height-h1: 60px;
     }
 
     @include from(480px) {
         --line-height-body: 32px;
+    }
+
+    @include from(xmedium) {
+        --line-height-h1: 65px;
+    }
+
+    @include from(xxmedium) {
+        --line-height-h1: 72px;
     }
 }
 

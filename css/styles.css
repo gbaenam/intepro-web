@@ -51,12 +51,21 @@
 :root {
   --line-height-h1: 48px;
   --line-height-body: 28px; }
+  @media screen and (min-width: 360px) {
+    :root {
+      --line-height-h1: 52px; } }
   @media screen and (min-width: 412px) {
     :root {
       --line-height-h1: 60px; } }
   @media screen and (min-width: 480px) {
     :root {
       --line-height-body: 32px; } }
+  @media screen and (min-width: 640px) {
+    :root {
+      --line-height-h1: 65px; } }
+  @media screen and (min-width: 960px) {
+    :root {
+      --line-height-h1: 72px; } }
 
 :root {
   --margin-bottom-h1: 15px; }
