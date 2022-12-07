@@ -407,12 +407,11 @@ small {
 .youtube__info {
   padding: var(--padding-alt); }
 
-.youtube__text span:first-child {
-  font-weight: bold;
-  text-transform: uppercase; }
-
-.youtube__text span:nth-child(2) {
+.youtube__text span {
   font-weight: bold; }
+
+.youtube__text span:first-child {
+  text-transform: uppercase; }
 
 .footer {
   text-align: center;
